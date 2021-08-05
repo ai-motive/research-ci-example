@@ -1,8 +1,8 @@
 def helloworld(a):
     msg = f"Hello World! {a}"
-    print(msg)
+    print(msg)  # hmm
     return msg
 
 
-if __name__ == "__main__":
+if __name__ == "__main__":  # pragma: no cover
     helloworld("Chris")
